@@ -8,8 +8,8 @@ public class User {
     private String username; //用户名
     private Integer age; //年龄
     private String address;///hghhghg
-    private String password;
-    private String remark;
+    private String password; //密码
+    private String remark; //备注
 
     public User() {
     }
