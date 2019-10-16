@@ -9,6 +9,7 @@ public class User {
     private Integer age; //年龄
     private String address;///hghhghg
     private String password;
+    private String remark;
 
     public User() {
     }
@@ -43,5 +44,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
     }
 }
