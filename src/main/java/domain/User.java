@@ -13,6 +13,13 @@ public class User {
     public User() {
     }
 
+    public User(String username, Integer age, String address, String remark) {
+        this.username = username;
+        this.age = age;
+        this.address = address;
+        this.remark = remark;
+    }
+
     public String getUsername() {
         return username;
     }
