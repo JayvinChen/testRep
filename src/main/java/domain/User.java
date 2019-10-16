@@ -7,5 +7,5 @@ package domain;
 public class User {
     private String username; //用户名
     private Integer age; //年龄
-    private String address; // 地址
+    private String address;
 }
