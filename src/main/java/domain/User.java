@@ -9,6 +9,9 @@ public class User {
     private Integer age; //年龄
     private String address;///hghhghg
 
+    public User() {
+    }
+
     public String getUsername() {
         return username;
     }
