@@ -10,16 +10,18 @@ public class User {
     private String address;///hghhghg
     private String password; //密码
     private String remark; //备注
+    private String telephone;
 
     public User() {
     }
 
-    public User(String username, Integer age, String address, String password, String remark) {
+    public User(String username, Integer age, String address, String password, String remark, String telephone) {
         this.username = username;
         this.age = age;
         this.address = address;
         this.password = password;
         this.remark = remark;
+        this.telephone = telephone;
     }
 
     public String getUsername() {
@@ -60,5 +62,13 @@ public class User {
 
     public void setRemark(String remark) {
         this.remark = remark;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 }
